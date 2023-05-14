@@ -16,9 +16,9 @@ const MealItemForm = (props) => {
     if (enteredAmountNumber < 1 || enteredAmountNumber > 5) {
       setAmountIsValid(false);
       return;
-    }
+    } else setAmountIsValid(true);
 
-    props.onAddToCart(enteredAmountNumber);
+    if (amountIsValid) props.onAddToCart(enteredAmountNumber);
   };
 
   return (
