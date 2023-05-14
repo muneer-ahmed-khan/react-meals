@@ -1,6 +1,6 @@
 # Test live site on below link
 
-[check the live app] [https://dev--startling-taiyaki-70808a.netlify.app/](Live App url)
+[check the live app] [https://dev--startling-taiyaki-70808a.netlify.app/]
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
